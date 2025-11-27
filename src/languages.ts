@@ -1,4 +1,4 @@
-type Language = { name: string; backgroundColor: string; color: string };
+export type Language = { name: string; backgroundColor: string; color: string };
 
 export const languages: Language[] = [
     {

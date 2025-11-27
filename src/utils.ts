@@ -8,7 +8,7 @@ export function getWord(): string {
     return words[getRandomIndex(words)];
 }
 
-export function getFarewellText(language: string): string {
+export function getFarewellText(language: string | null): string | null {
     const options: string[] = [
         `Farewell, ${language}`,
         `Adios, ${language}`,
